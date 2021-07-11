@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#FED8B1">
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ball"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_x="130dp"
+        android:layout_y="130dp"
+        android:src="@drawable/ball"></ImageView>
+
+     <Button
+            android:id="@+id/paddle2"
+            android:layout_width="100dp"
+            android:layout_height="15dp"
+            android:layout_x="300dp"
+            android:layout_y="20dp"
+            android:background="#dd4455"
+            android:enabled="false"></Button>
+
+    <Button
+        android:id="@+id/paddle1"
+        android:layout_width="100dp"
+        android:layout_height="15dp"
+        android:layout_x="300dp"
+        android:layout_y="290dp"
+        android:background="#8899dd"
+        android:enabled="false"></Button>
+
+    <TextView
+        android:id="@+id/left"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="0dp"
+        android:layout_y="400dp"
+        android:background="#9900aa"
+        android:text="LEFT"/>
+
+    <TextView
+        android:id="@+id/right"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="100dp"
+        android:layout_y="400dp"
+        android:background="#9944cc"
+        android:text="RIGHT"/>
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_x="0dp"
+        android:layout_y="500dp"
+        android:background="#3355ba"
+        android:text="Play"/>
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:textSize="40dp"
+        android:layout_x="100dp"
+        android:layout_y="600dp"
+        android:text="You : 0 Phone : 0"/>
+
+     <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_x="0dp"
+            android:layout_y="800dp"
+            android:background="#c0c0c0"/>
+
+    </AbsoluteLayout>
+
+</LinearLayout>
